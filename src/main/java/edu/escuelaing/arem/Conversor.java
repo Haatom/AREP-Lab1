@@ -10,7 +10,6 @@ public class Conversor {
     public Conversor(float numero, String tipo) {
         this.numero = numero;
         this.tipo = tipo;
-
     }
 
     public void calcularTemperatura(){

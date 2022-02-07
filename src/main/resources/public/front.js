@@ -1,9 +1,4 @@
-
-
 var front = (function(){
-
-
-
 
     return {
 
@@ -18,8 +13,5 @@ var front = (function(){
                             .then(response => response.json())
                             .then(json => $('#respuesta').html(json.respuesta))
         }
-
-
     }
-
 })();
