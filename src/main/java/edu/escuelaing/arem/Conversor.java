@@ -22,8 +22,6 @@ public class Conversor {
         }
     }
 
-
-
     public float getNumero() {
         return numero;
     }
