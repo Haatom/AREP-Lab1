@@ -3,7 +3,7 @@ var front = (function(){
     return {
 
         connection : function(name, numero){
-            var url = 'https://conversortemperatura.herokuapp.com/'
+            var url = 'https://conversortemperatura.herokuapp.com/convertidor/' + name + '/' + numero
                         fetch(url, {
                             method: 'GET',
                             headers: {
