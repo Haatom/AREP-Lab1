@@ -1,16 +1,27 @@
 package edu.escuelaing.arem;
 
+
+/**
+ * @author Nicolas Camacho Hurtado
+ * @version 1.0
+ * @project ConversionTemp
+ */
+
 public class Conversor {
+
     private float numero;
     private String tipo;
     private float respuesta;
-
 
 
     public Conversor(float numero, String tipo) {
         this.numero = numero;
         this.tipo = tipo;
     }
+
+    /**
+     * Metodo que realiza el calculo de las temperaturas
+     */
 
     public void calcularTemperatura(){
         if (tipo.equals("Celsius")){
@@ -22,27 +33,8 @@ public class Conversor {
         }
     }
 
-    public float getNumero() {
-        return numero;
-    }
-
-    public void setNumero(float numero) {
-        this.numero = numero;
-    }
-
-    public String getTipo() {
-        return tipo;
-    }
-
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
-    }
-
     public float getRespuesta() {
         return respuesta;
     }
 
-    public void setRespuesta(float respuesta) {
-        this.respuesta = respuesta;
-    }
 }

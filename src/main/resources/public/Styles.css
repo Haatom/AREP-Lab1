@@ -1,10 +1,8 @@
 body {
     background-image: url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg");
-
 }
 
 #Container{
-
     display: flex;
     width: 30%;
     align-content: center;
@@ -16,13 +14,11 @@ body {
 }
 
 #respuesta{
-
     font-weight: 1000;
     font-size: 60px;
 }
 
 #ingresado{
-
     font-weight: 1000;
 }
 
@@ -30,10 +26,7 @@ body {
     font-weight: 1000;
 }
 
-
-
 .button1 {
-
     border-radius: 30%;
     font-size: 20px;
 }
