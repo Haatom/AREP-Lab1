@@ -1,0 +1,39 @@
+body {
+    background-image: url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg");
+
+}
+
+#Container{
+
+    display: flex;
+    width: 30%;
+    align-content: center;
+    background-color: #8A0000;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 0 auto;
+    margin-top: 20%;
+}
+
+#respuesta{
+
+    font-weight: 1000;
+    font-size: 60px;
+}
+
+#ingresado{
+
+    font-weight: 1000;
+}
+
+#idTipo{
+    font-weight: 1000;
+}
+
+
+
+.button1 {
+
+    border-radius: 30%;
+    font-size: 20px;
+}
