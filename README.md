@@ -15,15 +15,18 @@ Para el uso local del aplicativo es necesario contar con:
 - Spark Framework Web
 - IntelliJ Idea preferiblemente, o algun cualquier otro IDE de compilación Java
 
+
 ### Instalación del proyecto
 
 Lo primero es realizar la clonación del proyecto desde la terminal con el comando `git clone https://github.com/Haatom/AREP-Lab1`, una vez clonado el proyecto realizamos la ejecución del comando `mvn clean` para realizar una limpieza de dependencias y binarios, una vez realizado podemos ejecutar la verificación y compilación del proyecto con el comando `mvn package`
+
 
 ### Ejecución del proyecto
 
 Para Windows usamos el comando: `java -cp target/classes:target/dependency/* edu.escuelaing.arem.ConversionTemp`
 
 Para Linux usamos el comando `java -cp target/classes;target/dependency/* edu.escuelaing.arem.ConversionTemp`
+
 
 ### Pruebas Unitarias
 
@@ -34,6 +37,15 @@ Se realizaron pruebas unitarias para verificar que la conversión de las tempera
 Resultado de las pruebas:
 
 ![](https://github.com/Haatom/AREP-Lab1/blob/master/img/pruebasresultado.png)
+
+Se realizan las pruebas unitarias concurrentes en las que mediante 10 hilos se realizan peticiones al aplicativo si esta devuelve un codigo 200 es aceptada:
+
+![](https://github.com/Haatom/AREP-Lab1/blob/master/img/concurrentes.png)
+
+Resultado de las pruebas concurrentes:
+
+![](https://github.com/Haatom/AREP-Lab1/blob/master/img/concurrentesresultado.png)
+
 
 ### Arquitectura Utilizada
 
@@ -54,6 +66,7 @@ Interfaz grafica usada:
 ![](https://github.com/Haatom/AREP-Lab1/blob/master/img/browser.png)
 
 Esta fue realizada en un archivo HTML usando estilos con CSS, la interfaz cuenta con un select con dos opciones "Convertir Celsius a Fahrenheit" y "Convertir Fahrenheit a Celsius" en las que dependiendo de la opción escogida unicamente en el input ingresaremos el valor que deseamos convertir ya sea de Celsius a Farenheit o Fahrenheit a Celsius, una vez ingresado el valor podemos oprimir el boton de calcular para que nos imprima en pantalla el valor del calculo de la conversión de la temperatura.
+
 
 ### Atributos de Calidad y Limitaciones
 
