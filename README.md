@@ -55,7 +55,11 @@ Interfaz grafica usada:
 
 Esta fue realizada en un archivo HTML usando estilos con CSS, la interfaz cuenta con un select con dos opciones "Convertir Celsius a Fahrenheit" y "Convertir Fahrenheit a Celsius" en las que dependiendo de la opción escogida unicamente en el input ingresaremos el valor que deseamos convertir ya sea de Celsius a Farenheit o Fahrenheit a Celsius, una vez ingresado el valor podemos oprimir el boton de calcular para que nos imprima en pantalla el valor del calculo de la conversión de la temperatura.
 
+### Atributos de Calidad y Limitaciones
 
+Una de las caracteristicas de la arquitectura es la posibilidad de extensibilidad del proyecto el cual nos permite agregar mas funcionalidades si se desea al proyecto extendiendose durante el proceso de desarrollo si fuese necesario. Por otro lado podemos añadir el atributo de usabilidad debido a que la aplicación cuenta con una interfaza amigable con el usuario que le permite realizar el calculo de una manera clara.
+
+Una de las limitaciones del aplicativo seria la disponibilidad del proyecto debido a que si se ejecuta mediante una de las aplicaciones como Heroku, si esta llegará a estar indisponible no podría usarse correctamente, o bien si recibiera un ataque de denegación de servicios DDOS debido a la arquitectura utilizada no podria procesar una cantidad considerable de peticiones.
 
 
 
