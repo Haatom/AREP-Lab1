@@ -17,11 +17,8 @@ var front = (function(){
         },
 
         convertir : function (numero){
-
             let tipo = document.getElementById("idTipo").value;
             this.connection(tipo, numero)
-
         }
-
     }
 })();
